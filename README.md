@@ -1,5 +1,5 @@
 ## GANSim3D_v2
-# An updated version of our original GANSim3D codes, with easier set up of training data dimensions, conditioning choices, etc.
+### An updated version of our original GANSim3D codes, with easier set up of training data dimensions, conditioning choices, etc.
 
 Original GANSim3D repositary (https://github.com/SuihongSong/GeoModeling_GANSim-3D_For_large_arbitrary_reservoirs) is a TensorFlow implementation of the following paper:
 
