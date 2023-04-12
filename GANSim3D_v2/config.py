@@ -34,9 +34,9 @@ sched       = EasyDict()                                    # Options for train.
 
 #----------------------------------------------------------------------------
 # Uncomment the following lines to further train the pre-trained GANs
-train.resume_run_id = '/scratch/users/suihong/SubwaterFan/TrainedModels/008-pgan3D128x128x32_4gpu_follow007/network-snapshot-007786.pkl'                                                     # Run ID or network pkl to resume training from, None = start from scratch.
-train.resume_kimg = 7786  # Assumed training progress at the beginning. Affects reporting and training schedule.
-train.resume_time = 47*3600 # seconds, Assumed wallclock time at the beginning. Affects reporting.
+# train.resume_run_id = '/scratch/users/suihong/SubwaterFan/TrainedModels/008-pgan3D128x128x32_4gpu_follow007/network-snapshot-007786.pkl'                                                     # Run ID or network pkl to resume training from, None = start from scratch.
+# train.resume_kimg = 7786  # Assumed training progress at the beginning. Affects reporting and training schedule.
+# train.resume_time = 47*3600 # seconds, Assumed wallclock time at the beginning. Affects reporting.
 #----------------------------------------------------------------------------
 desc += '128x128x32_4gpu_follow007';   # Supplement descriptions onto the folder name of results
 num_gpus = 4; 
